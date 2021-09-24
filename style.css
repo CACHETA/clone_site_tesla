@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.center {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo img {
+    width: 220px;
+}
+
+.logo {
+    position: relative;
+    top: 2px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+section.main {
+    width: 100%;
+    min-height: 100%;
+    background-image: url("/img/carro2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.menu {
+    margin-top: 15px;
+}
+
+.menu a {
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 3px 5px;
+}
+
+.menu a:hover {
+    border-radius: 5px;
+    background-color: rgba(100, 100, 100, 0.4);
+}
+
+.title {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.title h2 {
+    color: #393641;
+    font-size: 45px;
+    letter-spacing: 1.2px;
+}
+
+.title p {
+    color: #5C5D61;
+    font-size: 15px;
+}
+
+.title p a {
+    color: #5C5D61;
+}
+
+.btn {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+
+.btn a {
+    display: inline-block;
+    padding: 8px 50px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+}
